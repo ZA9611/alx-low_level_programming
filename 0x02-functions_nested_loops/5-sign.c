@@ -2,9 +2,9 @@
 
 
 	/**
-	 * Prints the sign of a given number.
-	 *
-	 * @param num The number to check the sign of.
+	 * print_sign - Prints the sign of a number
+	 * @n: The number to be checked
+	 * Return: 1 for positive num, -1 for negative num or zero for anyting else
 	 */
 	int print_sign(int n)
 	{
