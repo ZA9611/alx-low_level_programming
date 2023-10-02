@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * read_textfile - reads a text file and prints it to POSIX stdout.
- * @filename: A pointers to the name of the file.
- * @letters: the number of letters the 
+ * read_textfile - Reads a text file and prints it to POSIX stdout.
+ * @filename: A pointer to the name of the file.
+ * @letters: The number of letters the
  *           function should read and print.
  *
- * Return: if the function fails or filename is NULL - 0.
+ * Return: If the function fails or filename is NULL - 0.
  *         O/w - the actual number of bytes the function can read and print.
  */
 ssize_t read_textfile(const char *filename, size_t letters)
